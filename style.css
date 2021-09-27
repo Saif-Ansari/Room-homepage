@@ -1,0 +1,70 @@
+body {
+  font-family: "Spartan", sans-serif;
+}
+p {
+  font-size: 12px;
+  margin: 3px 0;
+  color: hsl(0, 0%, 63%);
+}
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 5px 0;
+}
+.container {
+  display: flex;
+}
+.home-section {
+  background-image: url("./assets/images/desktop-image-hero-1.jpg");
+  height: 500px;
+  background-size: cover;
+  width: 57.4%;
+}
+.shop-section {
+  position: relative;
+  width: 40%;
+  justify-content: center;
+  display: flex;
+}
+.details-section {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.details-section div {
+  margin: 10px 0;
+}
+.details-section img {
+  margin-left: 1rem;
+}
+.details-section span {
+  letter-spacing: 10px;
+}
+.arrows {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+}
+.arrows div {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrows div:hover {
+  background: hsl(0, 0%, 27%);
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-abt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4rem;
+}
