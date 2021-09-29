@@ -20,6 +20,25 @@ h1 {
   background-size: cover;
   width: 57.4%;
 }
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+  margin-top: 2rem;
+}
+ul li {
+  list-style-type: none;
+  display: inline;
+  color: white;
+  padding: 0 5px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+ul li:hover {
+  text-decoration: underline;
+}
 .shop-section {
   position: relative;
   width: 40%;
